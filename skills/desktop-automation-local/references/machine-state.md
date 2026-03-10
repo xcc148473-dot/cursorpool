@@ -26,6 +26,10 @@
 - Portable Python available at `workspace/tools/python/python.exe`
 - Portable FFmpeg available at `workspace/tools/ffmpeg/ffmpeg-8.0.1-essentials_build/bin/ffmpeg.exe`
 
+## Verified additional runtimes
+- Whisper runtime installed in portable Python
+- Whisper smoke test completed on generated audio (`whisper-test.wav`)
+
 ## Recommended operating model
 - Browser tasks: use browser relay first
 - Browser CLI tasks: use `agent-browser.cmd`
