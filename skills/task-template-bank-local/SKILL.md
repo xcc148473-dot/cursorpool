@@ -10,3 +10,6 @@ description: Store reusable task templates for recurring workflows such as daily
 2. Create a template with inputs, steps, and outputs.
 3. Reuse and refine the template over time.
 4. Keep templates short and practical.
+
+Check `workspace/productivity/README.md` for the full productivity system map.
+Use the actual files under `workspace/productivity/templates/` as the concrete starting points.
