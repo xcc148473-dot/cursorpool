@@ -23,3 +23,9 @@ Goal: handle a native file picker
 - target the dialog window
 - enter path or click deterministic controls
 - verify file attached
+
+## Native Windows app task
+Goal: automate a local desktop app
+- use `windows-app-recipes-local` to pick the recipe family
+- use `desktop-script-bank-local` templates if a script is warranted
+- verify visible app state after each checkpoint

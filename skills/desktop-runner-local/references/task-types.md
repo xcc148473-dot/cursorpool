@@ -22,3 +22,5 @@
 - file dialogs
 - installers
 - legacy software
+- reusable scripts from `desktop-script-bank-local`
+- app/task recipes from `windows-app-recipes-local`
