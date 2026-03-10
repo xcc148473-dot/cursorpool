@@ -20,4 +20,11 @@
 - proactive-local — replaces proactive reminders/checklist workflow using HEARTBEAT.md + cron concepts
 - self-improving-local — replaces lightweight learning/error capture workflow
 - tavily-search-local — local Tavily integration scaffold; still needs `TAVILY_API_KEY`
+- brave-search-local — local Brave Search scaffold; still needs Brave Search API key
+- github-local — local GitHub workflow scaffold; prefers `gh` CLI when available
+- gog-local — local Google Workspace scaffold; needs CLI + OAuth
+- notion-local — local Notion scaffold; needs integration token
+- obsidian-local — local Obsidian/Markdown vault workflow scaffold
+- openai-whisper-local — local Whisper transcription scaffold; needs runtime/tooling
+- api-gateway-local — local planning scaffold for OAuth-backed SaaS gateway setups
 - web-reader-local — low-risk public page reading/summarization alternative to suspicious browser-control skills

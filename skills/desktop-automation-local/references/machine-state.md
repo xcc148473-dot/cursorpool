@@ -21,6 +21,11 @@
 - Portable AutoHotkey v2 at `workspace/tools/autohotkey/AutoHotkey64.exe`
 - AutoHotkey smoke test passed
 
+## Additional machine notes
+- `gh` is not installed yet
+- `python` is not installed yet
+- `ffmpeg` is not on PATH yet
+
 ## Recommended operating model
 - Browser tasks: use browser relay first
 - Browser CLI tasks: use `agent-browser.cmd`
