@@ -27,4 +27,23 @@
 - obsidian-local — local Obsidian/Markdown vault workflow scaffold
 - openai-whisper-local — local Whisper transcription scaffold; needs runtime/tooling
 - api-gateway-local — local planning scaffold for OAuth-backed SaaS gateway setups
+- memory-manager-local — local continuity/memory maintenance workflow
+- filesystem-local — local file/folder management workflow
+- deep-research-local — structured multi-source research workflow
+- x-twitter-local — local X/Twitter browser/API planning workflow
+- n8n-local — local n8n setup/workflow planning scaffold
+- markdown-converter-local — local Markdown conversion/cleanup workflow
+- discord-local — local Discord workflow scaffold
+- news-summary-local — local news digest workflow
+- gmail-local — local Gmail/browser workflow scaffold
+- imap-smtp-local — generic mail workflow scaffold
+- youtube-watcher-local — local YouTube monitoring/summarization workflow
+- multi-search-local — multi-engine search orchestration scaffold
+- automation-workflows-local — repeatable automation workflow scaffold
+- agentmail-local — agent-oriented email workflow layer
+- humanizer-local — natural-language polishing workflow
+- blogwatcher-local — blog/changelog monitoring workflow
+- stock-market-local — market/news research workflow
+- byterover-local — coding-context memory workflow scaffold
+- capability-evolver-local — identify and add missing capabilities over time
 - web-reader-local — low-risk public page reading/summarization alternative to suspicious browser-control skills
