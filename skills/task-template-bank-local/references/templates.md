@@ -7,6 +7,8 @@ Templates live under `workspace/productivity/templates/`.
 - `task-tracker.md`
 - `goal-tracker.md`
 - `followup-list.md`
-- meeting prep
-- inbox triage
-- research brief
+- `meeting-prep.md`
+- `inbox-triage.md`
+- `research-brief.md`
+- `action-list.md`
+- `habit-tracker.md`
