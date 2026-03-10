@@ -19,3 +19,5 @@
 - skill-vetter-local — replaces basic pre-install/manual review workflow
 - proactive-local — replaces proactive reminders/checklist workflow using HEARTBEAT.md + cron concepts
 - self-improving-local — replaces lightweight learning/error capture workflow
+- tavily-search-local — local Tavily integration scaffold; still needs `TAVILY_API_KEY`
+- web-reader-local — low-risk public page reading/summarization alternative to suspicious browser-control skills
