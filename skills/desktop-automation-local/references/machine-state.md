@@ -22,9 +22,9 @@
 - AutoHotkey smoke test passed
 
 ## Additional machine notes
-- `gh` is not installed yet
-- `python` is not installed yet
-- `ffmpeg` is not on PATH yet
+- Portable GitHub CLI available at `workspace/tools/gh/bin/gh.exe`
+- Portable Python available at `workspace/tools/python/python.exe`
+- Portable FFmpeg available at `workspace/tools/ffmpeg/ffmpeg-8.0.1-essentials_build/bin/ffmpeg.exe`
 
 ## Recommended operating model
 - Browser tasks: use browser relay first

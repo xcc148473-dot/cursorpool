@@ -7,6 +7,9 @@
 - `gh --version`
 - `gh auth status`
 
+## Local machine note
+- Portable `gh` is available at `workspace/tools/gh/bin/gh.exe`
+
 ## If missing
 Install GitHub CLI or use browser fallback.
 

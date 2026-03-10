@@ -1,0 +1,12 @@
+# Local runtime/tool payloads
+/tools/python/
+/tools/ffmpeg/
+/tools/gh/
+/tools/autohotkey/
+
+# Temp/generated local test files
+ahk-smoke-test*.ahk
+ahk-smoke-result*.txt
+freedidi.html
+youtube.html
+skill_page.html
