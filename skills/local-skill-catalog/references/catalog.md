@@ -49,4 +49,15 @@
 - stock-market-local — market/news research workflow with runbook
 - byterover-local — coding-context memory workflow scaffold
 - capability-evolver-local — identify and add missing capabilities over time
+- daily-planner-local — daily planning workflow with runbook
+- task-tracker-local — persistent task tracking workflow with runbook
+- step-sequencer-local — ordered checkpointed multi-step execution with runbook
+- birthday-reminder-local — birthday/date reminder workflow with runbook
+- meeting-scheduling-local — meeting planning workflow with runbook
+- action-suggester-local — convert source material into next actions with runbook
+- adhd-planner-local — ADHD-friendly planning workflow with runbook
+- goal-tracker-local — medium/long-term goal tracking with runbook
+- focus-session-local — bounded focus-work session workflow with runbook
+- weekly-review-local — weekly reset/review workflow with runbook
+- task-template-bank-local — reusable productivity template bank
 - web-reader-local — low-risk public page reading/summarization alternative to suspicious browser-control skills
