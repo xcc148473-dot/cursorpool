@@ -17,8 +17,12 @@
 - Third-party ClawHub browser skills may be flagged suspicious even when the upstream CLI is legitimate; review before force-installing
 - Browser relay control can act as the logged-in user in attached tabs
 
+## Also available now
+- Portable AutoHotkey v2 at `workspace/tools/autohotkey/AutoHotkey64.exe`
+- AutoHotkey smoke test passed
+
 ## Recommended operating model
 - Browser tasks: use browser relay first
 - Browser CLI tasks: use `agent-browser.cmd`
 - File/system tasks: use PowerShell/CLI
-- Native GUI-only tasks: design AutoHotkey fallback if needed
+- Native GUI-only tasks: use the portable AutoHotkey fallback when needed
