@@ -32,21 +32,21 @@
 - deep-research-local — structured multi-source research workflow
 - x-twitter-local — local X/Twitter browser/API planning workflow
 - n8n-local — local n8n setup/workflow planning scaffold
-- markdown-converter-local — local Markdown conversion/cleanup workflow
-- discord-local — local Discord workflow scaffold
-- news-summary-local — local news digest workflow
+- markdown-converter-local — local Markdown conversion/cleanup workflow with runbook
+- discord-local — local Discord workflow scaffold with runbook
+- news-summary-local — local news digest workflow with runbook
 - gmail-local — local Gmail/browser workflow scaffold with runbook
 - gog-local — local Google Workspace scaffold with runbook
 - imap-smtp-local — generic mail workflow scaffold with runbook
-- youtube-watcher-local — local YouTube monitoring/summarization workflow
-- multi-search-local — multi-engine search orchestration scaffold
-- automation-workflows-local — repeatable automation workflow scaffold
+- youtube-watcher-local — local YouTube monitoring/summarization workflow with runbook
+- multi-search-local — multi-engine search orchestration scaffold with runbook
+- automation-workflows-local — repeatable automation workflow scaffold with runbook
 - agentmail-local — agent-oriented email workflow layer with runbook
 - x-twitter-local — local X/Twitter browser/API planning workflow with runbook
 - n8n-local — local n8n setup/workflow planning scaffold with runbook
-- humanizer-local — natural-language polishing workflow
-- blogwatcher-local — blog/changelog monitoring workflow
-- stock-market-local — market/news research workflow
+- humanizer-local — natural-language polishing workflow with runbook
+- blogwatcher-local — blog/changelog monitoring workflow with runbook
+- stock-market-local — market/news research workflow with runbook
 - byterover-local — coding-context memory workflow scaffold
 - capability-evolver-local — identify and add missing capabilities over time
 - web-reader-local — low-risk public page reading/summarization alternative to suspicious browser-control skills
