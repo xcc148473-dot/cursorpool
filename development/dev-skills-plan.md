@@ -22,4 +22,5 @@ Install only when a skill offers clear value beyond the current local stack and 
 ## Current findings
 - `clawhub` CLI is now installed and usable.
 - Attempted third-party install of `github-cli`, but ClawHub flagged it as suspicious and blocked non-interactive install without `--force`.
+- Reviewed `read-github`: useful repo-reading workflow via external `gitmcp.io` + `npx mcp-remote`, but it also gets flagged as suspicious and is blocked without `--force`.
 - Current safe default remains: prefer the existing local development skills unless a third-party skill is reviewed and clearly worth it.
