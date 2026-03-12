@@ -1,0 +1,14 @@
+{
+  "products": [
+    {
+      "id": "gpt_team_30d",
+      "title": "ChatGPT Business Team Shared Seat",
+      "priceUsd": 10,
+      "paymentPlanId": "gpt_team_30d",
+      "paymentMethod": "fiat",
+      "description": "Shared seat in a ChatGPT Business team workspace. You use your own email/account, and we add you to the active workspace after payment."
+    }
+  ],
+  "businessOrders": [],
+  "messages": []
+}
