@@ -30,3 +30,7 @@ This backend now uses Supabase tables:
 
 Run SQL:
 - `sql/init.sql`
+
+## Multi-site payment note
+This backend now forwards `FRONTEND_SITE_URL` to the payment backend as `site_url`, so one shared payment backend can generate the correct success/cancel URLs for different storefronts.
+"# chat-team" 

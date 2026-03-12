@@ -15,6 +15,7 @@ const {
 const PORT = process.env.PORT || 3100;
 const ADMIN_SECRET = process.env.ADMIN_SECRET || 'admin123';
 const PAYMENT_BACKEND_BASE = process.env.PAYMENT_BACKEND_BASE || 'http://127.0.0.1:3001';
+const FRONTEND_SITE_URL = process.env.FRONTEND_SITE_URL || 'http://127.0.0.1:3200';
 
 function send(res, code, body, headers = {}) { res.writeHead(code, headers); res.end(body); }
 function json(res, payload, code = 200) {
@@ -68,7 +69,12 @@ async function serializeOrder(order) {
 async function proxyCreatePayment(order) {
   const res = await fetch(`${PAYMENT_BACKEND_BASE.replace(/\/$/, '')}/api/checkout`, {
     method: 'POST', headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify({ email: order.email, plan: order.paymentPlanId, payment_method: order.paymentMethod || 'fiat' })
+    body: JSON.stringify({
+      email: order.email,
+      plan: order.paymentPlanId,
+      payment_method: order.paymentMethod || 'fiat',
+      site_url: FRONTEND_SITE_URL,
+    })
   });
   const data = await res.json().catch(() => ({}));
   if (!res.ok) throw new Error(data.message || data.error || 'payment_backend_error');

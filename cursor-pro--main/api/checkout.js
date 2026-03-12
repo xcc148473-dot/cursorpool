@@ -122,7 +122,7 @@ module.exports = async function handler(req, res) {
   }
 
   try {
-    const { email, plan, payment_method } = await readBodySafe(req);
+    const { email, plan, payment_method, site_url } = await readBodySafe(req);
 
     if (!email || typeof email !== 'string') {
       return sendJson(res, 400, { error: 'invalid_email', message: 'email is required' });
@@ -141,7 +141,10 @@ module.exports = async function handler(req, res) {
     const priceAmount = PLAN_PRICES[normalizedPlan];
     const priceCurrency = 'USD';
     const orderId = generateOrderId();
-    const siteUrl = process.env.FRONTEND_SITE_URL || getEnv('SITE_URL', { required: true });
+    const fallbackSiteUrl = process.env.FRONTEND_SITE_URL || getEnv('SITE_URL', { required: true });
+    const siteUrl = typeof site_url === 'string' && /^https?:\/\//i.test(site_url.trim())
+      ? site_url.trim().replace(/\/$/, '')
+      : fallbackSiteUrl.replace(/\/$/, '');
 
     // 默认支付方式逻辑：如果有 payment_method 参数则遵循，否则默认为 crypto (NOWPayments) 
     // 或者根据业务需求默认 fiat。这里假设默认 crypto 以保持向前兼容（如果之前是 NP）

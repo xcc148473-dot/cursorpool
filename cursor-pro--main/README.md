@@ -37,7 +37,7 @@
 
 ### 流程说明
 
-1. 用户下单：前端 `buy.html` 调用 `/api/checkout`，后端按金额自动选择 provider（失败会回退），返回并跳转 `payment_url`。
+1. 用户下单：前端 `buy.html` 调用 `/api/checkout`，后端按金额自动选择 provider（失败会回退），返回并跳转 `payment_url`。如果请求体传入 `site_url`，会优先用它生成 success/cancel/return URL，方便同一个支付后端服务多个前端站点。
 2. 支付成功：Chain2Pay GET 回调 `/api/chain2pay-callback`。
 3. 后端确认：回调处理里用 `ipn_token` 主动查询 `payment-status.php`，确认 `paid` 才标记支付成功。
 4. 发货触发：支付确认后触发飞书通知 + agent webhook。
@@ -57,6 +57,7 @@
 ### 常用接口
 
 - **创建支付**: `POST /api/checkout`
+  - 支持可选字段：`site_url`
 - **回调处理**: `GET /api/chain2pay-callback`
 - **查询状态**: `GET /api/check-order-status?order_id=...&email=...`
 - **用户消息**: `GET /api/support?order_id=...&email=...` / `POST /api/support`
