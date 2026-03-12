@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Find My Order</title>
+    <style>
+        body { font-family: sans-serif; max-width: 400px; margin: 40px auto; padding: 20px; text-align: center; }
+        input, button { width: 100%; margin-bottom: 15px; padding: 10px; box-sizing: border-box; }
+        button { background: #8e44ad; color: white; border: none; cursor: pointer; }
+        .result { background: #f9f9f9; padding: 15px; margin-top: 20px; word-break: break-all; text-align: left; }
+    </style>
+</head>
+<body>
+    <h2>Find My Order</h2>
+    <input type="email" id="email" placeholder="Enter your email">
+    <button onclick="findOrder()">Find Order</button>
+    
+    <div id="result" class="result" style="display:none;"></div>
+
+    <script>
+        // 配置后端地址（注意：末尾不要带斜杠）
+        window.BACKEND_BASE_URL = 'https://cursor-ey751umd1-xcc148473-dots-projects.vercel.app';
+
+        const BACKEND_BASE_URL = (window.BACKEND_BASE_URL || '').trim();
+        function api(path) {
+            if (!BACKEND_BASE_URL) return path;
+            return BACKEND_BASE_URL.replace(/\/+$/, '') + path;
+        }
+
+        async function findOrder() {
+            const email = document.getElementById('email').value;
+            const resultDiv = document.getElementById('result');
+            
+            if (!email) return alert('Please enter email');
+            
+            resultDiv.style.display = 'block';
+            resultDiv.textContent = 'Searching...';
+            
+            try {
+                const res = await fetch(api(`/api/query-last-order?email=${encodeURIComponent(email)}`));
+                const data = await res.json();
+                
+                if (data.ok && data.key) {
+                    resultDiv.innerHTML = `<strong>Found Key:</strong><br>${data.key}`;
+                } else {
+                    resultDiv.textContent = data.error || 'No completed order found for this email.';
+                }
+            } catch (e) {
+                resultDiv.textContent = 'Error searching.';
+            }
+        }
+    </script>
+</body>
+</html>
