@@ -1,0 +1,38 @@
+{
+  "product": {
+    "id": "chatgpt-business-team-seat",
+    "name": "ChatGPT Business Team Shared Seat",
+    "priceUsd": 10,
+    "description": "Shared seat in a ChatGPT Business team workspace. You use your own email/account and we add you to the active workspace after payment."
+  },
+  "orders": [
+    {
+      "orderNo": "ORD-DEMO-1001",
+      "customerName": "Demo Buyer",
+      "email": "demo@example.com",
+      "contact": "@demo",
+      "amountUsd": 10,
+      "paymentStatus": "paid",
+      "deliveryStatus": "processing",
+      "note": "Waiting for workspace invite confirmation.",
+      "createdAt": "2026-03-12T09:23:37.982Z",
+      "trackingToken": "afb4d020218e040fe312fa1012ea5084"
+    }
+  ],
+  "messages": [
+    {
+      "id": "4f1bb435-1dbc-4081-a6d9-99db92ddb0b9",
+      "orderNo": "ORD-DEMO-1001",
+      "sender": "customer",
+      "content": "Hi, I paid already. When will my seat be added?",
+      "createdAt": "2026-03-12T09:23:37.983Z"
+    },
+    {
+      "id": "d864a242-3661-459b-b41c-58f08e56c012",
+      "orderNo": "ORD-DEMO-1001",
+      "sender": "admin",
+      "content": "Payment confirmed. We are processing it and will update you here.",
+      "createdAt": "2026-03-12T09:23:37.983Z"
+    }
+  ]
+}
