@@ -10,3 +10,14 @@ ahk-smoke-result*.txt
 freedidi.html
 youtube.html
 skill_page.html
+
+# Local env files
+.env.local
+**/.env.local
+
+# Editor/runtime metadata
+.trae/
+**/.trae/
+
+# Nested repository metadata copied into workspace projects
+**/.git/
