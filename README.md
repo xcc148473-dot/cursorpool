@@ -1,7 +1,6 @@
 
-![image.png](attachment:c61bd418-d154-4724-aa5c-2485ff6d2f49:image.png)
+# How It Work!
 
-# How It Work
 
 Whenever your account's credit limit is reached, use this tool to refresh it. It can help you refresh your account's credit limit, thus enabling unlimited use.
 
@@ -11,9 +10,6 @@ Start in 3 steps: Install extension -> Open CursorPool -> Buy plan and code.
 
 # First, open the cursor, then click "view," then open "extensions," and finally drag the cursorpool into the "extensions" folder.Then open cursorpool, purchase a token, and enter it.
 
-![image (2).png](attachment:f378df29-cc78-4403-bf5c-86e364b80ee9:image_(2).png)
-
-![image (1).png](attachment:2c01f2b7-f4fd-49dd-baed-126a66be3211:image_(1).png)
 
 purchased token website:https://cursor-pro-2.vercel.app/
 
