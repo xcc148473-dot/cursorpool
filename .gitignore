@@ -1,23 +1,14 @@
-# Local runtime/tool payloads
-/tools/python/
-/tools/ffmpeg/
-/tools/gh/
-/tools/autohotkey/
-
-# Temp/generated local test files
-ahk-smoke-test*.ahk
-ahk-smoke-result*.txt
-freedidi.html
-youtube.html
-skill_page.html
-
-# Local env files
+﻿# Environment
 .env.local
-**/.env.local
+.env.*.local
 
-# Editor/runtime metadata
+# Runtime/editor metadata
 .trae/
-**/.trae/
 
-# Nested repository metadata copied into workspace projects
-**/.git/
+# Nested repo metadata
+.git/
+
+# Common junk
+.DS_Store
+Thumbs.db
+node_modules/
