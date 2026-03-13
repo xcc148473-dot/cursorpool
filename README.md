@@ -2,7 +2,7 @@
 # How It Work!
 
 
-Whenever your account's credit limit is reached, use this tool to refresh it. It can help you refresh your account's credit limit, thus enabling unlimited use.
+This tool can refresh your cursor account limit, allowing you to use it without restrictions.Once your cursor account limit is exhausted, you can use this tool to refresh it.
 
 # Video tutorial：https://youtu.be/mEoOpH_7FVU?si=2xN8oNWG5PIhr8V5
 
