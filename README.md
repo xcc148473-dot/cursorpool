@@ -4,7 +4,7 @@
 
 This tool can refresh your cursor account limit, allowing you to use it without restrictions.Once your cursor account limit is exhausted, you can use this tool to refresh it.
 
-# Video tutorial：https://youtu.be/mEoOpH_7FVU?si=2xN8oNWG5PIhr8V5
+# Video tutorial：https://youtu.be/jPryzi2V5Rc?si=Dk7j7Sf0U0TJqybx
 
 Start in 3 steps: Install extension -> Open CursorPool -> Buy plan and code.
 
